@@ -1,0 +1,39 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.npmjs.com/org/freenow
+note: >-
+  First-party open-source libraries published under the @freenow npm scope by the
+  freenowtech GitHub organization. These are front-end / design-system libraries,
+  not API client SDKs — FREE NOW's partner API is served from a password-gated
+  developer portal and ships no public client SDK, so no `SDKs` pointer is emitted.
+packages:
+- language: javascript
+  registry: npm
+  name: "@freenow/wave"
+  url: https://www.npmjs.com/package/@freenow/wave
+  install: npm install @freenow/wave
+  version: 2.60.0
+  description: React components of the Wave design system for front-end projects.
+  repository: https://github.com/freenowtech/wave
+  official: true
+  kind: design-system
+- language: javascript
+  registry: npm
+  name: "@freenow/uniform"
+  url: https://www.npmjs.com/package/@freenow/uniform
+  install: npm install @freenow/uniform
+  version: 1.2.1
+  description: Component for creating dynamic forms.
+  repository: https://github.com/freenowtech/uniform
+  official: true
+  kind: ui-component
+- language: javascript
+  registry: npm
+  name: "@freenow/react-polygon-editor"
+  url: https://www.npmjs.com/package/@freenow/react-polygon-editor
+  install: npm install @freenow/react-polygon-editor
+  version: 2.0.1
+  description: A React component for displaying and drawing geo polygons.
+  repository: https://github.com/freenowtech/react-polygon-editor
+  official: true
+  kind: ui-component

@@ -1,8 +1,16 @@
 aid: free-now
 name: FREE NOW
-description: FREE NOW is a company surfaced as a portfolio company of union-square-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  FREE NOW is one of Europe's leading multi-mobility "super apps," letting riders
+  book taxis and private-hire vehicles and, in many cities, e-scooters, e-bikes,
+  e-mopeds, carsharing and public-transport tickets from a single application.
+  Founded in Hamburg in 2009 as mytaxi and rebranded FREE NOW in 2019, the company
+  operates across nine European countries and 150+ cities. It ran as part of the
+  YOUR NOW mobility joint venture between Mercedes-Benz and BMW and was acquired by
+  Lyft. FREE NOW exposes a partner/business integration API (FREE NOW for Business)
+  through a password-gated developer portal at developer.free-now.com, and maintains
+  an active open-source presence — including the Wave design system — under the
+  freenowtech GitHub organization.
 url: https://raw.githubusercontent.com/api-evangelist/free-now/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,48 @@ x-backed-by:
 - union-square-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://files.readme.io/f5802fbd8046f4b841ab21706d09fa58a367d71d98943dcab195e97559445764-small-favicon.png
 tags:
+- Mobility
+- Ride Hailing
+- Transportation
+- Taxi
+- Mobility as a Service
+- Travel
+- Business
 - Company
-apis: []
+apis:
+- name: FREE NOW Partner API
+  description: >-
+    FREE NOW's partner and business integration API, documented through a
+    password-gated ReadMe developer portal and served from the api.free-now.com
+    gateway. Access is granted to approved FREE NOW for Business and integration
+    partners; the reference is not publicly available.
+  humanURL: https://developer.free-now.com/
+  baseURL: https://api.free-now.com
+  tags:
+  - Mobility
+  - Ride Hailing
+  - Partner API
+  properties:
+  - type: DeveloperPortal
+    url: https://developer.free-now.com/
+  - type: Documentation
+    url: https://developer.free-now.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -23,4 +67,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.your-now.com
+  url: https://www.free-now.com
+- type: DeveloperPortal
+  url: https://developer.free-now.com/
+- type: Documentation
+  url: https://developer.free-now.com/
+- type: GitHubOrganization
+  url: https://github.com/freenowtech
+- type: Packages
+  url: packages/free-now-packages.yml
+- type: DomainSecurity
+  url: security/free-now-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
