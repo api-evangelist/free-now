@@ -44,6 +44,9 @@ specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 image: https://files.readme.io/f5802fbd8046f4b841ab21706d09fa58a367d71d98943dcab195e97559445764-small-favicon.png
+x-docs-platform: readme
+x-docs-platform-confidence: high
+x-docs-platform-checked: 2026-10-03
 tags:
 - Mobility
 - Ride Hailing
